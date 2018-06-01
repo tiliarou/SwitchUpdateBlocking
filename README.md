@@ -43,10 +43,9 @@ options {
 
         allow-transfer { none; };
         allow-update { none; };
-        llow-recursion { none; };
 
         version "none";
-        recursion no;
+        recursion yes;
 
         auth-nxdomain no;
         listen-on-v6 { none; };
